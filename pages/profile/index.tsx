@@ -17,6 +17,7 @@ interface ReviewsResponse {
 const Profile: NextPage = () => {
   const { user } = useUser();
   const { data } = useSWR<ReviewsResponse>('/api/reviews');
+  console.log(data);
   return (
     <Layout hasTabBar title='나의 캐럿'>
       <div className='px-4'>
@@ -107,7 +108,7 @@ const Profile: NextPage = () => {
             </a>
           </Link>
         </div>
-        {data?.reviews.map((review) => (
+        {data?.reviews?.map((review) => (
           <div key={review.id} className='mt-12'>
             <div className='flex space-x-4 items-center'>
               <div className='w-12 h-12 rounded-full bg-slate-500' />
