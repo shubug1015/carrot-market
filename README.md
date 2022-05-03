@@ -1,3 +1,3 @@
 # Carrot Market
 
-Carrot Market Clone using NextJS, Tailwind with Node.JS express.
+Serverless Carrot Market Clone using NextJS, Tailwind, Prisma, PlanetScale and Cloudflare.
