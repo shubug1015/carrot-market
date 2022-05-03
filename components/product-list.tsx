@@ -1,9 +1,9 @@
-import { ProductWithCount } from "pages";
-import useSWR from "swr";
-import Item from "./item";
+import { ProductWithCount } from 'pages';
+import useSWR from 'swr';
+import Item from './item';
 
 interface ProductListProps {
-  kind: "favs" | "sales" | "purchases";
+  kind: 'favs' | 'sales' | 'purchases';
 }
 
 interface Record {
