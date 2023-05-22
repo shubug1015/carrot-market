@@ -1,3 +1,6 @@
 # Carrot Market
+> 당근마켓 클론코딩(FrontEnd)
 
-Serverless Carrot Market Clone using NextJS, Tailwind, Prisma, PlanetScale and Cloudflare.
+
+## 기술 스택
+JavaScript, Typescript, React, Next.JS
